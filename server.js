@@ -6,7 +6,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log("${FAVORITE_CLOUD_PROVIDER} rocks!");
+    console.log(`${FAVORITE_CLOUD_PROVIDER} rocks!`);
     await sleep(5000);
   }
 }
